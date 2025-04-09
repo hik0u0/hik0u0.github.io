@@ -1377,7 +1377,7 @@ html *::-webkit-scrollbar-track {
   }
 }
 body {
-  background: linear-gradient(to bottom right,#ffa751,#ffe259);
+  background: linear-gradient(to bottom right,#FFB88C,#FFC2D1);
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
