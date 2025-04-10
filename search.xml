@@ -23,7 +23,7 @@
     
     
     <entry>
-      <title>Color.r</title>
+      <title>Color_r</title>
       <link href="/2025/04/10/Color/"/>
       <url>/2025/04/10/Color/</url>
       
@@ -42,7 +42,7 @@
     
     
     <entry>
-      <title>build-a-blog</title>
+      <title>Blogify</title>
       <link href="/2025/04/09/Build-a-blog/"/>
       <url>/2025/04/09/Build-a-blog/</url>
       
@@ -61,11 +61,11 @@
     
     
     <entry>
-      <title>Meow</title>
+      <title>Meow!</title>
       <link href="/2025/04/08/Meow/"/>
       <url>/2025/04/08/Meow/</url>
       
-        <content type="html"><![CDATA[<h1 id="Meow"><a href="#Meow" class="headerlink" title="Meow!"></a>Meow!</h1><p>(&#x3D;^-ω-^&#x3D;) I am the boss here, hooman!</p>]]></content>
+        <content type="html"><![CDATA[<p>(&#x3D;^-ω-^&#x3D;) I am the boss here, hooman!</p>]]></content>
       
       
       
