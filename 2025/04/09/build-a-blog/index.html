@@ -1,12 +1,12 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta name="author" content="hiko"/><meta name="keyword"/><meta name="description" content="利用 hexo 和 github 搭建个人博客（之不知道第几次重来版 一、配置环境 打开终端  安装Homebrew  1&#x2F;bin&#x2F;bash -c &quot;$(curl -fsSL https:&#x2F;&#x2F;raw.githubusercontent.com&#x2F;Homebrew&#x2F;install&#x2F;HEAD&#x2F;install.sh)&quot;   帮助  1brew help   验证  1brew --ve">
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta name="author" content="hiko"/><meta name="keyword"/><meta name="description" content="利用 hexo 和 github 搭建个人博客（之不知道第几次重来版 一、配置环境 打开终端  通过 Spotlight 搜索：  按下 Command (⌘) + Space，打开 Spotlight 搜索框。  输入 Terminal（终端），然后按 Enter，就可以打开终端了。    通过 Finder 打开：  打开 Finder，点击菜单栏的 前往，然后选择 实用工具。 在实用工具文件">
 <meta property="og:type" content="article">
 <meta property="og:title" content="build-a-blog">
-<meta property="og:url" content="http://hik0u0.github.io/2025/04/09/build-a-blog/index.html">
+<meta property="og:url" content="http://hik0u0.github.io/2025/04/09/Build-a-blog/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="利用 hexo 和 github 搭建个人博客（之不知道第几次重来版 一、配置环境 打开终端  安装Homebrew  1&#x2F;bin&#x2F;bash -c &quot;$(curl -fsSL https:&#x2F;&#x2F;raw.githubusercontent.com&#x2F;Homebrew&#x2F;install&#x2F;HEAD&#x2F;install.sh)&quot;   帮助  1brew help   验证  1brew --ve">
+<meta property="og:description" content="利用 hexo 和 github 搭建个人博客（之不知道第几次重来版 一、配置环境 打开终端  通过 Spotlight 搜索：  按下 Command (⌘) + Space，打开 Spotlight 搜索框。  输入 Terminal（终端），然后按 Enter，就可以打开终端了。    通过 Finder 打开：  打开 Finder，点击菜单栏的 前往，然后选择 实用工具。 在实用工具文件">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2025-04-09T15:21:26.000Z">
-<meta property="article:modified_time" content="2025-04-09T15:30:35.652Z">
+<meta property="article:modified_time" content="2025-04-10T04:10:45.608Z">
 <meta property="article:author" content="hiko">
 <meta property="article:tag" content="开始">
 <meta name="twitter:card" content="summary"><title>build-a-blog - hiko - Life is really meow meow and mi mi</title><link rel="shortcut icon" href="/img/site-icon.png">
@@ -17,14 +17,36 @@
 
 <script src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" async></script>
 <meta name="generator" content="Hexo 7.3.0"></head><body><header><div class="top-nav" ondblclick="scrollToTop()"><div class="nav-info"><div class="nav-icon"><img id="nav-icon" src="/img/site-icon.png"/></div><div class="nav-title"><a id="nav-title" href="/" title="Home">Hexo</a></div></div><div class="nav-ribbon"><div class="top-menu-expanded"><a class="top-menu-item" href="/archives"><span>Archives</span></a><a class="top-menu-item" href="/categories"><span>Categories</span></a><a class="top-menu-item" href="/tags"><span>Tags</span></a><a class="top-menu-item" href="/about"><span>About</span></a></div><div class="top-search" onclick="toggleSearchWindow()"><div id="top-search-btn" title="Search"><i class="icon fa-solid fa-magnifying-glass"></i><span>Search</span></div></div><div id="top-menu-btn" onclick="openTopMenu()" title="Open Menu"><i class="fa-solid fa-bars fa-lg"></i></div></div></div></header><div id="top-menu-hidden"><div class="menu-hidden-content"><div class="menu-hidden-nav"><a class="menu-hidden-item" href="/archives"><i class="fa-solid fa-box-archive fa-sm"></i><span>Archives</span></a><a class="menu-hidden-item" href="/categories"><i class="fa-regular fa-folder-open fa-sm"></i><span>Categories</span></a><a class="menu-hidden-item" href="/tags"><i class="fa-solid fa-tags fa-sm"></i><span>Tags</span></a><a class="menu-hidden-item" href="/about"><i class="fa-solid fa-paw fa-sm"></i><span>About</span></a></div></div><div class="menu-hidden-blank" onclick="closeTopMenu()"></div></div>
-<div class="blog-info"><div class="blog-pic"><img id="blog-pic" src="/img/site-icon.png"/></div><div class="blog-title"><i class="fa-solid fa-paw fa-2xs fa-rotate-by"></i><span>hiko</span><i class="fa-solid fa-paw fa-2xs fa-rotate-by"></i></div><div class="blog-desc">Diary:（·-·）Hoping I Keep On, Hanging In Kinda Okay---</div></div><div class="main"><div class="main-content"><article class="post"><div class="post-title"><h1><i class="fa-solid fa-paw"></i>build-a-blog</h1></div><div class="post-info"><div class="post-info-first-line"><div class="post-date"><i class="icon fa-regular fa-calendar-plus" title="Published date"></i><time class="publish-time">2025-04-09</time><i class="icon fa-regular fa-calendar-check" title="Updated date"></i><time class="update-time">2025-04-09</time></div>
+<div class="blog-info"><div class="blog-pic"><img id="blog-pic" src="/img/site-icon.png"/></div><div class="blog-title"><i class="fa-solid fa-paw fa-2xs fa-rotate-by"></i><span>hiko</span><i class="fa-solid fa-paw fa-2xs fa-rotate-by"></i></div><div class="blog-desc">Diary:（·-·）Hoping I Keep On, Hanging In Kinda Okay---</div></div><div class="main"><div class="main-content"><article class="post"><div class="post-title"><h1><i class="fa-solid fa-paw"></i>build-a-blog</h1></div><div class="post-info"><div class="post-info-first-line"><div class="post-date"><i class="icon fa-regular fa-calendar-plus" title="Published date"></i><time class="publish-time">2025-04-09</time><i class="icon fa-regular fa-calendar-check" title="Updated date"></i><time class="update-time">2025-04-10</time></div>
 
 <div class="post-tags"><i class="icon fa-solid fa-tags" title="Tags"></i><a class="post-tag" href="/tags/%E5%BC%80%E5%A7%8B/">开始</a></div></div><div class="post-info-second-line"><div class="post-copyright"><i class="icon fa-brands fa-creative-commons" title="Copyright"></i><span>Copyright: </span><a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh-hans" title="CC BY-NC-ND 4.0">BY-NC-ND 4.0</a></div>
-<div class="post-word-count"><i class="icon fa-solid fa-pen-to-square"></i><span>About 621 words</span></div><div class="pageview-post"><i class="icon fa-regular fa-eye"></i><span id="busuanzi_container_page_pv">Hits: <span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner"></i></span></span></div></div></div><div class="post-content"><p>利用 <code>hexo</code> 和 <code>github</code> 搭建个人博客（之不知道第几次重来版</p>
+<div class="post-word-count"><i class="icon fa-solid fa-pen-to-square"></i><span>About 744 words</span></div><div class="pageview-post"><i class="icon fa-regular fa-eye"></i><span id="busuanzi_container_page_pv">Hits: <span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner"></i></span></span></div></div></div><div class="post-content"><p>利用 <code>hexo</code> 和 <code>github</code> 搭建个人博客（之不知道第几次重来版</p>
 <h2 id="一、配置环境"><a href="#一、配置环境" class="headerlink" title="一、配置环境"></a>一、配置环境</h2><ol>
-<li><p>打开终端</p>
+<li><p><strong>打开终端</strong></p>
+<ul>
+<li><p>通过 Spotlight 搜索：</p>
+<ul>
+<li><p>按下 <strong>Command (⌘) + Space</strong>，打开 Spotlight 搜索框。</p>
 </li>
-<li><p>安装Homebrew</p>
+<li><p>输入 <strong>Terminal</strong>（终端），然后按 <strong>Enter</strong>，就可以打开终端了。</p>
+</li>
+</ul>
+</li>
+<li><p>通过 Finder 打开：</p>
+<ul>
+<li>打开 <strong>Finder</strong>，点击菜单栏的 <strong>前往</strong>，然后选择 <strong>实用工具</strong>。</li>
+<li>在实用工具文件夹中找到 <strong>Terminal</strong>，双击打开。</li>
+</ul>
+</li>
+<li><p>通过 Dock 打开：</p>
+<ul>
+<li>在 Dock 中找到 <strong>Finder</strong>（通常是最左边的笑脸图标）。</li>
+<li>打开 <strong>Finder</strong>，然后按照上面的步骤进入 <strong>前往 &gt; 实用工具</strong>，找到 <strong>Terminal</strong> 打开。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><strong>安装Homebrew</strong></p>
  <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">/bin/bash -c <span class="string">&quot;<span class="subst">$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)</span>&quot;</span></span><br></pre></td></tr></table></figure>
 
 <p> 帮助</p>
@@ -33,13 +55,13 @@
 <p> 验证</p>
  <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">brew --version</span><br></pre></td></tr></table></figure>
 </li>
-<li><p>安装Node.js</p>
+<li><p><strong>安装Node.js</strong></p>
  <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">brew install node</span><br></pre></td></tr></table></figure>
 
 <p> 验证</p>
  <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">node -v</span><br><span class="line">npm -v</span><br></pre></td></tr></table></figure>
 </li>
-<li><p>安装Git</p>
+<li><p><strong>安装Git</strong></p>
  <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">brew install git</span><br></pre></td></tr></table></figure>
 
 <p> 验证</p>
@@ -48,14 +70,14 @@
 <p> 如果已经安装，想更新到最新版本，运行</p>
  <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">brew update</span><br><span class="line">brew upgrade git</span><br></pre></td></tr></table></figure>
 </li>
-<li><p>安装Hexo</p>
+<li><p><strong>安装Hexo</strong></p>
  <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></table></figure>
 
 <p> 验证</p>
  <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo -v</span><br></pre></td></tr></table></figure></li>
 </ol>
 <h2 id="二、搭建博客（本地）"><a href="#二、搭建博客（本地）" class="headerlink" title="二、搭建博客（本地）"></a>二、搭建博客（本地）</h2><ol>
-<li><p>初始化一个新的 Hexo 博客项目</p>
+<li><p><strong>初始化一个新的 Hexo 博客项目</strong></p>
  <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo init hiblog</span><br><span class="line"><span class="built_in">cd</span> hiblog</span><br><span class="line">npm install</span><br></pre></td></tr></table></figure>
 
 <ul>
@@ -65,37 +87,37 @@
 <li><strong>themes 文件夹</strong>：存放主题文件，默认主题为 <code>landscape</code>，可更改或定制主题。</li>
 </ul>
 </li>
-<li><p>启动 Hexo 本地服务器</p>
+<li><p><strong>启动 Hexo 本地服务器</strong></p>
  <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo s</span><br></pre></td></tr></table></figure>
 
 <p> 访问 <code>http://localhost:4000/</code> 查看博客，然后回终端 <code>Ctrl+C</code> 退出（会和你说 <code>Good bye</code> 喔）</p>
 </li>
-<li><p>创建新文章</p>
+<li><p><strong>创建新文章</strong></p>
  <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo n 文章标题</span><br></pre></td></tr></table></figure>
 
-<p> 这样会在 <code>source/_posts</code> 文件夹中创建一个新的md（文件名为 <code>hexo n</code> 后面的那个字符），你可以在其中编写你的内容。</p>
+<p> 这样会在 <code>source/_posts</code> 文件夹中创建一个新的md（文件名为 <code>hexo n</code> 后面的 <code>文章标题.md</code>），你可以在其中编写你的内容。</p>
 </li>
-<li><p>完成内容后，生成静态文件</p>
+<li><p><strong>完成内容编写后，生成静态文件</strong></p>
  <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo g</span><br><span class="line">hexo s</span><br></pre></td></tr></table></figure>
 
 <p> 再次访问链接 <code>http://localhost:4000/</code>，即可看到更新</p>
 </li>
 </ol>
 <h2 id="三、Github-Page-部署"><a href="#三、Github-Page-部署" class="headerlink" title="三、Github Page 部署"></a>三、Github Page 部署</h2><ol>
-<li><p>登录github：<code>https://github.com</code></p>
+<li><p><strong>登录github</strong>：<code>https://github.com</code></p>
 </li>
-<li><p>创建 New repository，名字必须为：<code>username.github.io</code></p>
+<li><p><strong>创建 New repository</strong>：名字必须为：<code>username.github.io</code></p>
 </li>
-<li><p>安装部署插件</p>
+<li><p><strong>安装部署插件</strong></p>
  <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-deployer-git --save </span><br></pre></td></tr></table></figure>
 </li>
-<li><p>更改本地文件夹下 <code>_config.yml</code> 文件的配置</p>
+<li><p><strong>更改本地文件夹下 <code>_config.yml</code> 文件的配置</strong></p>
  <figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Deployment</span></span><br><span class="line"><span class="comment">## Docs: https://hexo.io/docs/deployment.html</span></span><br><span class="line"><span class="attr">deploy:</span></span><br><span class="line"><span class="attr">type:</span> <span class="string">git</span></span><br><span class="line"><span class="attr">repo:</span> <span class="string">https://github.com/username/username.github.io.git</span></span><br><span class="line"><span class="attr">branch:</span> <span class="string">main</span></span><br></pre></td></tr></table></figure>
 </li>
-<li><p>回到终端部署到 github</p>
+<li><p><strong>回到终端部署到 github</strong></p>
  <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo d</span><br></pre></td></tr></table></figure>
 </li>
-<li><p>主题更换</p>
+<li><p><strong>主题更换</strong></p>
 <ul>
 <li><p>以 <code>https://github.com/chanwj/hexo-theme-meow</code> 主题（<code>https://chanwj.github.io</code>）为例（超级可爱的一个小主题！！！）</p>
 </li>
@@ -109,17 +131,17 @@
   <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-renderer-pug --save</span><br></pre></td></tr></table></figure></li>
 </ul>
 </li>
-<li><p>手动提交本地更改</p>
+<li><p><strong>手动提交本地更改</strong></p>
  <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git status</span><br><span class="line">git add .</span><br><span class="line">git commit -m <span class="string">&quot;Your commit message&quot;</span></span><br></pre></td></tr></table></figure>
 
  <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git push origin main</span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure>
 </li>
-<li><p>添加自己的域名</p>
+<li><p><strong>添加自己的域名</strong></p>
 <p> 访问 <code>https://github.com/username/username.github.io/settings/pages</code> ，在 <code>Custom domain</code> 空格处输入域名即可</p>
 </li>
 </ol>
 </div><div class="post-end"><div class="post-prev"><a href="/2025/04/10/I-I140uO/" title="Previous Article"><i class="fa-solid fa-chevron-left fa-lg"></i></a></div><div class="post-reward" onclick="openPostReward()" title="Rewards"><i class="fa-regular fa-thumbs-up fa-xl fa-beat-fade"></i></div><div id="reward-panel" onclick="closePostReward()"><div class="reward-container"><p>If you like this article, welcome to pay me a coffee, thanks&#128151;</p>
-<div class="reward-nav"><div class="reward-item"><img class="reward-img" src="/img/reward/wechat.jpg" title="Wechat" alt="Wechat"/><span>Wechat</span></div><div class="reward-item"><img class="reward-img" src="/img/reward/alipay.jpg" title="Alipay" alt="Alipay"/><span>Alipay</span></div></div></div></div><div class="post-next"></div></div></article><div class="comment" id="comment"><script src="https://giscus.app/client.js" data-repo="hik0u0/hik0u0.github.io" data-repo-id="R_kgDOOWkL3A" data-category="Announcements" data-category-id="DIC_kwDOOWkL3M4Co7SB" data-mapping="url" data-strict="0" data-reactions-enabled="1" data-emit-metadata="top" data-input-position="preferred_color_scheme" data-theme="zh-CN" data-lang="lazy" data-loading="anonymous" async="async"></script></div><div id="post-toc"><aside class="toc-aside"><div class="toc-title"><span><i class="fa-solid fa-paw"></i>TOC</span></div><div class="toc-container" id="toc-body"><ol class="toc-content"><li class="toc-content-item toc-content-level-2"><a class="toc-content-link" href="#%E4%B8%80%E3%80%81%E9%85%8D%E7%BD%AE%E7%8E%AF%E5%A2%83"><span class="toc-content-number">1.</span> <span class="toc-content-text">一、配置环境</span></a></li><li class="toc-content-item toc-content-level-2"><a class="toc-content-link" href="#%E4%BA%8C%E3%80%81%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E6%9C%AC%E5%9C%B0%EF%BC%89"><span class="toc-content-number">2.</span> <span class="toc-content-text">二、搭建博客（本地）</span></a></li><li class="toc-content-item toc-content-level-2"><a class="toc-content-link" href="#%E4%B8%89%E3%80%81Github-Page-%E9%83%A8%E7%BD%B2"><span class="toc-content-number">3.</span> <span class="toc-content-text">三、Github Page 部署</span></a></li></ol></div></aside><div class="toc-blank" onclick="tocToggle()"></div></div></div></div><div id="tool-bar"><div id="tool-bar-main"><div id="tool-toggle" onclick="toolToggle()" title="Settings"><i class="fa-solid fa-gear"></i></div><div id="toc-toggle" onclick="tocToggle()" title="TOC"><i class="fa-solid fa-list-ul"></i></div><div id="go-to-comment" onclick="gotoComment()" title="Comment"><i class="fa-regular fa-message fa-flip-horizontal"></i></div><div id="back-to-top" onclick="scrollToTop()" title="Back To Top"><i class="fa-solid fa-chevron-up"></i></div></div><div id="tool-bar-more" style="display: none;"><div id="darkmode-switch" onclick="darkmodeSwitch()" title="Darkmode"><i class="fa-solid fa-circle-half-stroke"></i></div><div id="font-size-increase" onclick="fontSizeIncrease()" title="Increase Font Size"><i class="fa-solid fa-plus"></i></div><div id="font-size-decrease" onclick="fontSizeDecrease()" title="Decrease Font Size"><i class="fa-solid fa-minus"></i></div></div></div><div id="search-panel"><div class="search-container"><div class="search-head"><div class="search-title"><span><i class="fa-solid fa-paw"></i>Search</span></div><div class="search-close-btn" onclick="toggleSearchWindow()"><i class="fa-regular fa-circle-xmark"></i></div></div><div class="search-box"><i class="fa-solid fa-magnifying-glass"></i><input id="search-input" type="text" placeholder="Please enter the content to search..." value=""/></div><div class="search-body"><div id="search-count">Matching results: </div><div id="search-result"></div><div id="search-result-empty">No matching articles were found.</div></div></div></div><footer><div class="footer-content"><div class="copyright-info"><i class="fa-regular fa-copyright fa-xs"></i><span>2024 - 2025 </span><a href="/about">hiko</a><i class="fa-solid fa-cat fa-sm"></i><span>Powered by </span><a href="https://hexo.io/" target="_blank">Hexo</a><span> &amp; </span><a href="https://github.com/chanwj/hexo-theme-meow" target="_blank" title="v2.1.3">Theme Meow</a></div><div class="pageview-site"><span id="busuanzi_container_site_pv">Total hits : <span id="busuanzi_value_site_pv"><i class="fa-solid fa-spinner"></i></span></span><span id="busuanzi_container_site_uv">Total visitors : <span id="busuanzi_value_site_uv"><i class="fa-solid fa-spinner"></i></span></span></div></div></footer>
+<div class="reward-nav"><div class="reward-item"><img class="reward-img" src="/img/reward/wechat.jpg" title="Wechat" alt="Wechat"/><span>Wechat</span></div><div class="reward-item"><img class="reward-img" src="/img/reward/alipay.jpg" title="Alipay" alt="Alipay"/><span>Alipay</span></div></div></div></div><div class="post-next"><a href="/2025/04/08/Meow/" title="Next Article"><i class="fa-solid fa-chevron-right fa-lg"></i></a></div></div></article><div class="comment" id="comment"><script src="https://giscus.app/client.js" data-repo="hik0u0/hik0u0.github.io" data-repo-id="R_kgDOOWkL3A" data-category="Announcements" data-category-id="DIC_kwDOOWkL3M4Co7SB" data-mapping="url" data-strict="0" data-reactions-enabled="1" data-emit-metadata="top" data-input-position="preferred_color_scheme" data-theme="zh-CN" data-lang="lazy" data-loading="anonymous" async="async"></script></div><div id="post-toc"><aside class="toc-aside"><div class="toc-title"><span><i class="fa-solid fa-paw"></i>TOC</span></div><div class="toc-container" id="toc-body"><ol class="toc-content"><li class="toc-content-item toc-content-level-2"><a class="toc-content-link" href="#%E4%B8%80%E3%80%81%E9%85%8D%E7%BD%AE%E7%8E%AF%E5%A2%83"><span class="toc-content-number">1.</span> <span class="toc-content-text">一、配置环境</span></a></li><li class="toc-content-item toc-content-level-2"><a class="toc-content-link" href="#%E4%BA%8C%E3%80%81%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E6%9C%AC%E5%9C%B0%EF%BC%89"><span class="toc-content-number">2.</span> <span class="toc-content-text">二、搭建博客（本地）</span></a></li><li class="toc-content-item toc-content-level-2"><a class="toc-content-link" href="#%E4%B8%89%E3%80%81Github-Page-%E9%83%A8%E7%BD%B2"><span class="toc-content-number">3.</span> <span class="toc-content-text">三、Github Page 部署</span></a></li></ol></div></aside><div class="toc-blank" onclick="tocToggle()"></div></div></div></div><div id="tool-bar"><div id="tool-bar-main"><div id="tool-toggle" onclick="toolToggle()" title="Settings"><i class="fa-solid fa-gear"></i></div><div id="toc-toggle" onclick="tocToggle()" title="TOC"><i class="fa-solid fa-list-ul"></i></div><div id="go-to-comment" onclick="gotoComment()" title="Comment"><i class="fa-regular fa-message fa-flip-horizontal"></i></div><div id="back-to-top" onclick="scrollToTop()" title="Back To Top"><i class="fa-solid fa-chevron-up"></i></div></div><div id="tool-bar-more" style="display: none;"><div id="darkmode-switch" onclick="darkmodeSwitch()" title="Darkmode"><i class="fa-solid fa-circle-half-stroke"></i></div><div id="font-size-increase" onclick="fontSizeIncrease()" title="Increase Font Size"><i class="fa-solid fa-plus"></i></div><div id="font-size-decrease" onclick="fontSizeDecrease()" title="Decrease Font Size"><i class="fa-solid fa-minus"></i></div></div></div><div id="search-panel"><div class="search-container"><div class="search-head"><div class="search-title"><span><i class="fa-solid fa-paw"></i>Search</span></div><div class="search-close-btn" onclick="toggleSearchWindow()"><i class="fa-regular fa-circle-xmark"></i></div></div><div class="search-box"><i class="fa-solid fa-magnifying-glass"></i><input id="search-input" type="text" placeholder="Please enter the content to search..." value=""/></div><div class="search-body"><div id="search-count">Matching results: </div><div id="search-result"></div><div id="search-result-empty">No matching articles were found.</div></div></div></div><footer><div class="footer-content"><div class="copyright-info"><i class="fa-regular fa-copyright fa-xs"></i><span>2025 </span><a href="/about">hiko</a><i class="fa-solid fa-cat fa-sm"></i><span>Powered by </span><a href="https://hexo.io/" target="_blank">Hexo</a><span> &amp; </span><a href="https://github.com/chanwj/hexo-theme-meow" target="_blank" title="v2.1.3">Theme Meow</a></div><div class="pageview-site"><span id="busuanzi_container_site_pv">Total hits : <span id="busuanzi_value_site_pv"><i class="fa-solid fa-spinner"></i></span></span><span id="busuanzi_container_site_uv">Total visitors : <span id="busuanzi_value_site_uv"><i class="fa-solid fa-spinner"></i></span></span></div></div></footer>
 <script>const GLOBAL_CONFIG = {
   comment: { theme: 'zh-CN'}
 }
